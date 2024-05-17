@@ -14,27 +14,28 @@ Monitoring: Regular fingerprinting can help in monitoring the health and perform
 ##  Usage Instructions
 # Linux
 Clone the Repository
-
+```bash
 git clone [(https://github.com/Pr4kharam/Fingerprint-of-a-System)]
-
+```
+```bash
 cd Fingerprint-of-a-System
 
 cd Linux
-
+```
 Grant Execution Permissions
 
 Before running the script, you need to give it execution permissions.
 
 This can be done using the following command:
-
+```bash
 chmod +x fingerprint.sh
-
+```
 Run the Script
 
 Execute the script to generate a fingerprint of your system:
-
+```bash
 ./system_fingerprint.sh
-
+```
 Output
 
 The script will generate a report with detailed information about your system's hardware, software, and network configurations. The output will be saved in a file named system_fingerprint.txt.
@@ -42,26 +43,31 @@ The script will generate a report with detailed information about your system's 
 # Windows
 
 Clone the Repository
-
+```bash
 git clone [(https://github.com/Pr4kharam/Fingerprint-of-a-System)]
-
+```
+```bash
 cd Fingerprint-of-a-System
 
 cd Windows
+```
 
 Set Execution Policy
 
 Before running the PowerShell script, you need to set the execution policy to allow script execution.
 
 This can be done using the following command:
-
+```bash
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 Run the Script
 
 Execute the PowerShell script to generate a fingerprint of your system:
 
+```bash
 .\system_fingerprint_windows.ps1
+```
 
 Output
 
