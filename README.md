@@ -15,7 +15,7 @@ Monitoring: Regular fingerprinting can help in monitoring the health and perform
 # Linux
 Clone the Repository
 ```bash
-git clone [(https://github.com/Pr4kharam/Fingerprint-of-a-System)]
+git clone https://github.com/Pr4kharam/Fingerprint-of-a-System
 ```
 ```bash
 cd Fingerprint-of-a-System
