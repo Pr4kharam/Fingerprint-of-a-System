@@ -44,7 +44,7 @@ The script will generate a report with detailed information about your system's 
 
 Clone the Repository
 ```bash
-git clone [(https://github.com/Pr4kharam/Fingerprint-of-a-System)]
+git clone https://github.com/Pr4kharam/Fingerprint-of-a-System
 ```
 ```bash
 cd Fingerprint-of-a-System
