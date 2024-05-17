@@ -1,8 +1,8 @@
-## System Fingerprinting
-# What is Fingerprinting?
+# System Fingerprinting
+## What is Fingerprinting?
 System fingerprinting is the process of collecting and identifying various characteristics and details about a system. This includes hardware details, software configurations, network settings, and other system-specific information. The collected data forms a unique "fingerprint" of the system, which can be used for various purposes such as monitoring, security, compliance, and troubleshooting.
 
-# Why is Fingerprinting Important?
+## Why is Fingerprinting Important?
 Security: Fingerprinting helps in identifying unauthorized changes or potential security breaches. By comparing the current fingerprint with a known good state, discrepancies can be quickly identified.
 
 Compliance: Many industries have regulations that require detailed documentation of system configurations. Fingerprinting automates this process, ensuring that all necessary information is collected and stored.
@@ -11,8 +11,8 @@ Troubleshooting: When issues arise, having a detailed fingerprint of the system 
 
 Monitoring: Regular fingerprinting can help in monitoring the health and performance of a system, enabling proactive maintenance and avoiding potential downtimes.
 
-##  Usage Instructions
-# Linux
+###  Usage Instructions
+#### Linux
 Clone the Repository
 ```bash
 git clone https://github.com/Pr4kharam/Fingerprint-of-a-System
@@ -40,7 +40,7 @@ Output
 
 The script will generate a report with detailed information about your system's hardware, software, and network configurations. The output will be saved in a file named system_fingerprint.txt.
 
-# Windows
+#### Windows
 
 Clone the Repository
 ```bash
