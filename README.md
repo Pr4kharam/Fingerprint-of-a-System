@@ -22,32 +22,47 @@ cd Fingerprint-of-a-System
 cd Linux
 
 Grant Execution Permissions
-Before running the script, you need to give it execution permissions. This can be done using the following command:
+
+Before running the script, you need to give it execution permissions.
+
+This can be done using the following command:
 
 chmod +x fingerprint.sh
 
 Run the Script
+
 Execute the script to generate a fingerprint of your system:
 
 ./system_fingerprint.sh
 
 Output
+
 The script will generate a report with detailed information about your system's hardware, software, and network configurations. The output will be saved in a file named system_fingerprint.txt.
 
 # Windows
 
 Clone the Repository
+
 git clone [(https://github.com/Pr4kharam/Fingerprint-of-a-System)]
+
 cd Fingerprint-of-a-System
 
+cd Windows
+
 Set Execution Policy
-Before running the PowerShell script, you need to set the execution policy to allow script execution. This can be done using the following command:
+
+Before running the PowerShell script, you need to set the execution policy to allow script execution.
+
+This can be done using the following command:
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Run the Script
+
 Execute the PowerShell script to generate a fingerprint of your system:
+
 .\system_fingerprint_windows.ps1
 
 Output
+
 The script will generate a report with detailed information about your system's hardware, software, and network configurations. The output will be saved in a file named system_fingerprint.txt.
