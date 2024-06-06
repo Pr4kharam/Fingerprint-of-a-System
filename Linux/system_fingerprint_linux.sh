@@ -63,6 +63,9 @@ else
     append_to_output "Type" "Desktop"
 fi
 
+#Systemtime
+append_section_header "Time"
+append_to_output "Time" "$(timedatectl)"
 # Boot ID
 append_section_header "Boot ID"
 append_to_output "Boot ID" "$(cat /proc/sys/kernel/random/boot_id)"
